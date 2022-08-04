@@ -1,0 +1,183 @@
+/*
+ * General Styles
+*/
+
+
+body {
+  background: url('../images/Amina5.jpg');
+  font-family: 'Open Sans', arial, sans-serif;
+
+  /* Full Page Background Receipe */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: blur(0.5px);
+}
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+  color: #001524;
+  font-weight: lighter;
+}
+
+strong {
+  font-weight: bold;
+}
+
+ul li {
+  list-style: decimal inside;
+}
+
+/*
+ * Heading Styles
+*/
+h3{
+  font-family: 'Lobster', cursive;
+  color: #e22f8f;
+  text-align: left;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+text-overflow: 1px;
+opacity: 50%;
+  
+
+}
+
+h1, h2 {
+  font-family: 'Lobster', cursive;
+  color: #0081a7;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+/*
+ * Container Styles
+*/
+
+
+.container {
+  width: 600px;
+  margin: 100px auto;
+}
+
+
+/*
+ * Hero Styles
+*/
+
+.hero {
+  line-height: 0;
+}
+
+.hero img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/*
+ * Section Styles
+*/
+
+section.intro, section.contact {
+  padding: 40px;
+}
+
+section.intro {
+  background: #FFF;
+  border-bottom: : #BBB solid 2px;
+}
+
+section.contact {
+  background: #fdfcdc;
+  border-top:#BBB solid 2px;
+  border-bottom: : #BBB solid 2px;
+ 
+}
+
+
+/*
+ * Aside Styles
+*/
+aside.right img{
+  width: 250px;
+  margin-top: -2.5rem;
+
+
+}
+aside.right {
+  float: right;
+}
+
+aside.left img{
+  width: 200px;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+aside.left  {
+  float: left;
+}
+
+
+aside {
+  margin-right: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+section.sidebar {
+  
+  
+  background: #FFF;
+  padding: 25px;
+ 
+  font-family: 'Lobster',;
+  color: #e22f8f;
+  text-align: center;
+  margin-bottom: 2.0rem;
+  border-radius: 0px 0px 20px 20px;
+  border-top: #BBB solid 3px;
+}
+.last{
+  font-size: 25px;
+  color: #001524; 
+}
+.love{
+  color: white;
+  font-size: 15px;
+  text-align: center;
+
+}
+.mail{
+  padding-top: +100px;
+}
+a{
+  color: #e22f8f;
+}
+.favo{
+  color: grey;
+}
+
+
+
